@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>view events</title>
+    <meta name="viewport"  content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <h1  style="font-size: 50px; color: darkgreen; text-align: center; text-decoration: darkslateblue;">Events </h1>
+    <div  style=" color: darkmagenta;">
+     <h1 style="color: darkslategrey;">1.Machine learning bootcamp</h1>
+     <section style="font-size: 25px;">
+     <label>Date:</label>
+     <label id="dt"></label><br><br>
+     <script>
+        var today=new Date();
+        var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+        var td=document.getElementById("dt");
+        td.innerHTML=date;
+    </script>
+     <b>Time:7:30 pm</b>
+    </section>
+    </div>
+    <div style="color: darkmagenta;">
+        <h1 style="color: darkslategrey;">2.cloud computing</h1>
+        <section style="font-size: 25px;">
+        <label>Date:</label>
+        <label id="dt0"></label><br><br>
+        <script>
+            var today=new Date();
+            var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+            var td=document.getElementById("dt0");
+            td.innerHTML=date;
+        </script>
+        <b>Time:9:30 pm</b>
+    </div>
+</body>
